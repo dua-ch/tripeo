@@ -42,7 +42,7 @@ const Hero = () => {
           </div>
           <div className="col-content">
                 <h2 className="big-3">Seamless travel adventures await with Tripeo's All-in-one AI travel app! Plan, book, and travel with ease for a smooth journey.</h2>
-                <p className="lead-1">Join Gen Y/Z travelers for personalized destination recommendations based on your search preferences.</p> 
+                <p className="lead-1">Jin Gen Y/Z travelers for personalized destination recommendations based on your search preferences.</p> 
           </div>
       </div>
     </div>
@@ -54,6 +54,29 @@ const Hero = () => {
           <div className="cta-img">
                   <Image
                     src="/images/illustrationmen.jpg"
+                    alt="laptop palverse"
+                    width={550}
+                    height={370}
+                  />
+          </div>
+      </div>
+    </div>
+
+    <div className="zigzag-wrap zig-reverse">
+      <div className="container">
+
+          <div className="col-content">
+                <h2 className="big-3">Discovery & Inspiration search</h2>
+                <p className="lead-1">Using our AI algorithms, we categorize the best holiday offers into human-like categories.<br/>
+                Instead of traditional destination-based lists 
+                (e.g. Spain, Miami),our categories include options 
+                like : Cultural Experiences, best for solo female, 
+                water sport adventures,Business travel ,and more .
+                </p> 
+          </div>
+          <div className="col-img">
+                  <Image
+                    src="/images/discovery.png"
                     alt="laptop palverse"
                     width={550}
                     height={370}
@@ -95,7 +118,7 @@ const Hero = () => {
           <div className="flex flex-col justify-end items-center py-4 md:py-0">
             <div className=" mt-16  md:scale-125">
               <Image
-                src="/images/laptop.png"
+                src="/images/pc.png"
                 alt="laptop palverse"
                 width={550}
                 height={370}
@@ -106,12 +129,7 @@ const Hero = () => {
             </h5>
           </div>
 
-  
-       
-          
-
         </div>
-
 
         <div className="w-screen overflow-x-auto flex flex-col items-center justify-center mt-5 ">
           <h2 className=" text-center pt-10 md:w-9/12 colored-hd big-3 ">

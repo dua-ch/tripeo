@@ -19,14 +19,53 @@ const FirstLocation = () => {
                 </div>
             </section>
            
-            <section className="cta gray-bg">
+            {/* <section className="cta gray-bg">
                 <div className="pl-container">
                     <div className="cta-text">
                         <h2 className="big-2 w-900">Built on big ideas</h2>
-                        <p className="mt-5 lead-1">We are Tripeo, and we believe that putting a great tailored Ai travel search, and easy-to-use web3 wallet at your fingerprint will make your journey stress-free and enjoyable. </p>
+                            <p className="mt-5 lead-1">Travel search has remained unchanged for the 
+                            past decade.
+                            Traditional travel search forms limit your search
+                            options and may not cater to your preferences 
+                            or thought processes, particularly if you're 
+                            a Gen Y/Z traveler.<br></br>
+                            We are Tripeo, and we believe that putting a
+                            great tailored AI travel search, discovery and 
+                            inspiration search, and easy-to-use web3 wallet
+                            at your fingerprint will make your journey 
+                            stress-free and enjoyable.
+                            </p>
                     </div>
                 </div>
-            </section>        
+            </section>    */}
+
+            <div className="zigzag-wrap zig-reverse build-section">
+                <div className="container">
+
+                    <div className="col-content">
+                        <h2 className="big-2 w-900">Built on big ideas</h2>
+                         <p className="mt-5 lead-1">Travel search has remained unchanged for the 
+                            past decade.Traditional travel search forms limit your search
+                            options and may not cater to your preferences 
+                            or thought processes, particularly if you're 
+                            a Gen Y/Z traveler.<br></br>
+                            We are Tripeo, and we believe that putting a
+                            great tailored AI travel search, discovery and 
+                            inspiration search, and easy-to-use web3 wallet
+                            at your fingerprint will make your journey 
+                            stress-free and enjoyable.
+                            </p>
+                    </div>
+                    <div className="col-img">
+                        <Image
+                            src="/images/bigidea.jpg"
+                            alt="laptop palverse"
+                            width={550}
+                            height={370}
+                        />
+                    </div>
+                </div>
+            </div>     
             <section className="cta">
                 <div className="pl-container">
                     <div className="icon-wrap mb-5">

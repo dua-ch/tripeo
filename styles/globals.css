@@ -121,6 +121,9 @@ h4{
   margin-top: 20px;
  }
  
+ .build-section.zigzag-wrap {
+  padding-top: 80px;
+ }
 
 @media (max-width:1024px) {
   .big-1 {
@@ -129,6 +132,10 @@ h4{
 }
 
 @media (max-width:767px) {
+
+  .zig-reverse.zigzag-wrap .container{
+    flex-direction: column-reverse;
+  }
   .big-1 {
     font-size: 38px;
     line-height: 43px;
@@ -203,13 +210,13 @@ h4{
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
+  gap: 50px;
+  justify-content: space-between;
 }
 
 
 .zigzag-wrap .col-content {
   width: calc(100% - 500px);
-  padding-left: 50px;
-
 }
 
 .banner h2{
@@ -219,7 +226,6 @@ h4{
 
 .zigzag-wrap .col-content p {
   margin-top: 30px;
-  max-width: 510px;
 }
 
 .zigzag-wrap .col-img {
@@ -365,7 +371,6 @@ body .icon-boxes p {
 
   .zigzag-wrap .col-content {
     width: calc(100% - 350px);
-    padding-left: 40px;
 
   }
 
@@ -379,12 +384,13 @@ body .icon-boxes p {
 @media (max-width:767px) {
 
   .cta-section.finding-offer{
-    padding: 50px 0 20px;
+    padding: 20px 0 ;
    }
 
   .zigzag-wrap .container {
     flex-direction: column;
-    max-width: 600px
+    max-width: 600px;
+    gap: 40px;
   }
   
   .tab-nav-logo.hidden{
@@ -404,8 +410,6 @@ body .icon-boxes p {
  
   .zigzag-wrap .col-content {
     width: 100%;
-    padding: 20px 0 0;
-
   }
 
   .zigzag-wrap .col-content h2,
@@ -417,9 +421,12 @@ body .icon-boxes p {
     margin-top: 15px
   }
 
-  .zigzag-wrap,
   .cta-section {
     padding: 30px 20px;
+  }
+
+  .zigzag-wrap{
+      padding: 50px 20px;
   }
 
   .cta-section .cta-img {
