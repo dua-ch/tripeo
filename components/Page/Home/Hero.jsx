@@ -26,7 +26,7 @@ const Hero = () => {
 
      <div className="cta-section banner" >
       <div className="container">
-          <h2 className="big-1">Explore the world like never before with Tripeo's AI travel assistant!</h2>
+          <h2 className="big-2 w-900">Explore the world like never before with Tripeo's AI travel assistant!</h2>
       </div>
     </div>
 
@@ -41,23 +41,8 @@ const Hero = () => {
                   />
           </div>
           <div className="col-content">
-                <h2 className="big-3">Seamless travel adventures await with Tripeo's All-in-one AI travel app! Plan, book, and travel with ease for a smooth journey.</h2>
-                <p className="lead-1">Jin Gen Y/Z travelers for personalized destination recommendations based on your search preferences.</p> 
-          </div>
-      </div>
-    </div>
-
-    <div className="cta-section how-work-sect">
-      <div className="container">
-          <h2 className="big-1 green-hd">How it works</h2>
-          <h3>Spelling Correction</h3>
-          <div className="cta-img">
-                  <Image
-                    src="/images/illustrationmen.jpg"
-                    alt="laptop palverse"
-                    width={550}
-                    height={370}
-                  />
+                <h2 className="big-3"><span className="text-[#000]">Plan, book, and travel with ease for a smooth journey.</span></h2>
+                <p className="lead-1">Join Gen Y/Z travelers for personalized destination recommendations based on your search preferences.</p> 
           </div>
       </div>
     </div>
@@ -84,6 +69,23 @@ const Hero = () => {
           </div>
       </div>
     </div>
+
+    <div className="cta-section how-work-sect">
+      <div className="container">
+          <h2 className="big-1 green-hd">How it works</h2>
+          <h3>Spelling Correction</h3>
+          <div className="cta-img">
+                  <Image
+                    src="/images/illustrationmen.jpg"
+                    alt="laptop palverse"
+                    width={550}
+                    height={370}
+                  />
+          </div>
+      </div>
+    </div>
+
+
 
     <div className="cta-section finding-offer">
       <div className="container">
@@ -116,12 +118,12 @@ const Hero = () => {
           </strong>
 
           <div className="flex flex-col justify-end items-center py-4 md:py-0">
-            <div className=" mt-16  md:scale-125">
+            <div className=" mt-16 pc">
               <Image
                 src="/images/pc.png"
                 alt="laptop palverse"
-                width={550}
-                height={370}
+                width={1000}
+                height={600}
               />
             </div>
             <h5 className="text-[26px] font-bold text-center pt-6  text-[#ECF7FD] colored-hd">
@@ -184,10 +186,10 @@ const Hero = () => {
           </p> */}
           <div className=" mt-5  md:mt-0 md:scale-100">
             <Image
-              src="/images/laptop.png"
+              src="/images/pc.png"
               alt="laptop palverse"
-              width={550}
-              height={370}
+              width={1000}
+              height={600}
             />
           </div>
           <div className="bg-[#ECF7FD] text-black py-2 w-screen my-2">
