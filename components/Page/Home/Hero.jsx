@@ -165,7 +165,7 @@ const Hero = () => {
           />
         </div> */}
       </div>
-      <div className="md:hidden ">
+      <div className="md:hidden overflow-hidden">
         <div className=" flex flex-col items-center">
           <strong className="md:text-[46px] text-[28px] text-center font-bold  text-[#ECF7FD] colored-hd change-text">
             Book
