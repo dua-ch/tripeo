@@ -189,7 +189,7 @@ const Hero = () => {
               src="/images/laptop.png"
               alt="laptop palverse"
               width={1000}
-              height={500}
+              height={600}
             />
           </div>
           <div className="bg-[#ECF7FD] text-black py-2 w-screen my-2">
