@@ -280,9 +280,9 @@ h4{
   margin: 30px auto 0;
 }
 
-.cta-section .cta-img {
+.cta-section.finding-offer .cta-img {
   position: relative;
-  /* padding-bottom: 42%; */
+  padding-bottom: 42%;
 }
 
 
@@ -290,21 +290,21 @@ h4{
   margin: 0 auto;
 }
 
-/* .cta-section .cta-img>span,
-.cta-section .cta-img>span span {
+.cta-section.finding-offer .cta-img>span,
+.cta-section.finding-offer .cta-img>span span {
   width: 100% !important;
   height: 100% !important;
   left: 0;
   top: 0;
   position: absolute !important
-} */
+} 
 
 
-/* .cta-section .cta-img img {
+.cta-section.finding-offer .cta-img img {
   width: 100% !important;
   height: 100% !important;
   object-fit: contain;
-} */
+}
 
 .cta-section.cta-section:not(.finding-offer) .cta-img i{
 object-fit: cover;

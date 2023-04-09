@@ -78,7 +78,7 @@ const Hero = () => {
                   <Image
                     src="/images/illustrationmen.jpg"
                     alt="laptop palverse"
-                    width={1200}
+                    width={1500}
                     height={500}
                   />
           </div>
