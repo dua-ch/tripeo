@@ -184,7 +184,7 @@ const Hero = () => {
             <br className="md:hidden" /> join communities, and bridge the web2
             travel experience to web3.
           </p> */}
-          <div className=" mt-5  md:mt-0 md:scale-100">
+          <div className=" mt-5 mobile-pc">
             <Image
               src="/images/laptop.png"
               alt="laptop palverse"

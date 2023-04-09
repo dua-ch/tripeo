@@ -133,6 +133,11 @@ h4{
 
 @media (max-width:767px) {
 
+  .mobile-pc{
+    margin-right: -23px;
+    margin-left: -40px;
+  }
+
   .zig-reverse.zigzag-wrap .container{
     flex-direction: column-reverse;
   }
