@@ -447,7 +447,8 @@ body .icon-boxes p {
 }
 
 .cta-section.banner{
-  padding: 50px 20px 30px
+  padding: 50px 20px 0;
+  margin-bottom: -20px;
  }
 
 }

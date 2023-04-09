@@ -30,7 +30,7 @@ const WhoWeAre = () => (
                   </div>
                   <div className="team-text">
                     <h4>DRAGOS OVIDIU OLTEANU</h4>
-                    <h5>Co-Founder, CEO</h5>
+                    <h5>Founder, CEO</h5>
                   </div>
                   <div className="hide-text">
                     <p className="lead-2">Dragos finished his MSc degree in Sustainable Energy Engineering with a focus on AI and offshore robotics from Aalborg University Denmark and TU Delft Netherland.
@@ -59,7 +59,7 @@ const WhoWeAre = () => (
                     <Image src="/images/team/Riz.png" alt="riz" width={300} height={300} />
                   </div>
                   <div className="team-text">
-                    <h4>RIZ</h4>
+                    <h4>RIZWAN</h4>
                     <h5>Full - Stack Developer</h5>
                   </div>
                 </div>
@@ -68,7 +68,7 @@ const WhoWeAre = () => (
                     <Image src="/images/team/Jack.png" alt="Jack" width={300} height={300} />
                   </div>
                   <div className="team-text">
-                    <h4>Jack</h4>
+                    <h4>JACK</h4>
                     <h5>Full - Stack Developer</h5>
                   </div>
                 </div>

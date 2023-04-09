@@ -44,11 +44,7 @@ const FirstLocation = () => {
 
                     <div className="col-content">
                         <h2 className="big-2 w-900">Built on big ideas</h2>
-                         <p className="mt-5 lead-1">Travel search has remained unchanged for the 
-                            past decade.Traditional travel search forms limit your search
-                            options and may not cater to your preferences 
-                            or thought processes, particularly if you're 
-                            a Gen Y/Z traveler.<br></br>
+                         <p className="mt-5 lead-1">Traditional travel search has remained stagnant for a decade, limiting options and not catering to the preferences of Gen Y/Z travelers<br></br>
                             We are Tripeo, and we believe that putting a
                             great tailored AI travel search, discovery and 
                             inspiration search, and easy-to-use web3 wallet
