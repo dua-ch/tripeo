@@ -122,8 +122,8 @@ const Hero = () => {
               <Image
                 src="/images/laptop.png"
                 alt="laptop palverse"
-                width={1000}
-                height={500}
+                width={1300}
+                height={600}
               />
             </div>
             <h5 className="text-[26px] font-bold text-center pt-6  text-[#ECF7FD] colored-hd">
@@ -188,8 +188,8 @@ const Hero = () => {
             <Image
               src="/images/laptop.png"
               alt="laptop palverse"
-              width={1000}
-              height={500}
+              width={1200}
+              height={600}
             />
           </div>
           <div className="bg-[#ECF7FD] text-black py-2 w-screen my-2">
