@@ -282,7 +282,7 @@ h4{
 
 .cta-section .cta-img {
   position: relative;
-  padding-bottom: 42%;
+  /* padding-bottom: 42%; */
 }
 
 
@@ -290,21 +290,21 @@ h4{
   margin: 0 auto;
 }
 
-.cta-section .cta-img>span,
+/* .cta-section .cta-img>span,
 .cta-section .cta-img>span span {
   width: 100% !important;
   height: 100% !important;
   left: 0;
   top: 0;
   position: absolute !important
-}
+} */
 
 
-.cta-section .cta-img img {
+/* .cta-section .cta-img img {
   width: 100% !important;
   height: 100% !important;
   object-fit: contain;
-}
+} */
 
 .cta-section.cta-section:not(.finding-offer) .cta-img i{
 object-fit: cover;
@@ -433,14 +433,10 @@ body .icon-boxes p {
     padding-top: 0;
   }
 
-  .cta-section .cta-img {
+  .cta-section.finding-offer .cta-img {
     padding-bottom: 65%;
   }
 
-  
-.how-work-sect .cta-img{
-  padding-bottom: 39%;
-}
   .icon-boxes .flex-col {
     justify-content: flex-start;
 }
