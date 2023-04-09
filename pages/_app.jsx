@@ -19,7 +19,7 @@ const navs = [
   },
 
   {
-    name: 'what we build',
+    name: 'What We Build',
     link: '/first-location'
   },
 ]
