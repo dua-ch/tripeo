@@ -47,7 +47,7 @@ const Hero = () => {
       </div>
     </div>
 
-    <div className="zigzag-wrap zig-reverse">
+    <div className="zigzag-wrap zig-reverse bot-space">
       <div className="container">
 
           <div className="col-content">

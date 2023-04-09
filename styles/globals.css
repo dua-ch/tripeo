@@ -390,7 +390,7 @@ body .icon-boxes p {
   .zigzag-wrap .container {
     flex-direction: column;
     max-width: 600px;
-    gap: 40px;
+    gap: 20px;
   }
   
   .tab-nav-logo.hidden{
@@ -427,6 +427,10 @@ body .icon-boxes p {
 
   .zigzag-wrap{
       padding: 50px 20px;
+  }
+
+  .zigzag-wrap.bot-space{
+    padding-top: 0;
   }
 
   .cta-section .cta-img {
