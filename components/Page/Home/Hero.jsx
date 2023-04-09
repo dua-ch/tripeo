@@ -120,7 +120,7 @@ const Hero = () => {
           <div className="flex flex-col justify-end items-center py-4 md:py-0">
             <div className=" mt-16 pc">
               <Image
-                src="/images/pc.png"
+                src="/images/laptop.png"
                 alt="laptop palverse"
                 width={1000}
                 height={600}
@@ -186,7 +186,7 @@ const Hero = () => {
           </p> */}
           <div className=" mt-5  md:mt-0 md:scale-100">
             <Image
-              src="/images/pc.png"
+              src="/images/laptop.png"
               alt="laptop palverse"
               width={1000}
               height={600}
