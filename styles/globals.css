@@ -125,6 +125,11 @@ h4{
   padding-top: 80px;
  }
 
+ .col-content p span{
+  display: block;
+  margin-top: 10px;
+ }
+
 @media (max-width:1024px) {
   .big-1 {
     font-size: 56px;

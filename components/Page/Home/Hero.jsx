@@ -52,11 +52,8 @@ const Hero = () => {
 
           <div className="col-content">
                 <h2 className="big-3">Discovery & Inspiration search</h2>
-                <p className="lead-1">Using our AI algorithms, we categorize the best holiday offers into human-like categories.<br/>
-                Instead of traditional destination-based lists 
-                (e.g. Spain, Miami),our categories include options 
-                like : Cultural Experiences, best for solo female, 
-                water sport adventures,Business travel ,and more .
+                <p className="lead-1">Our AI-powered inspiration categories, such as Cultural Experiences, Solo Female Travel, and Adventure Seekers, outshine traditional location searches and redefine travel discovery.
+                <span>Dive into an extraordinary adventure and find your dream holiday with us!</span>
                 </p> 
           </div>
           <div className="col-img">
@@ -153,17 +150,6 @@ const Hero = () => {
             </Link>
           </div>
         </div>
-        {/* <div className="flex flex-col items-center justify-center pt-14 pb-8">
-          <h1 className="text-3xl text-[#ECF7FD] font-bold w-[70%] mx-auto text-center pb-10">
-            HOW IT WORKS{" "}
-          </h1>
-          <Image
-            src="/images/utili.png"
-            alt="palmverse hotel"
-            width={1100}
-            height="600"
-          />
-        </div> */}
       </div>
       <div className="md:hidden overflow-hidden">
         <div className=" flex flex-col items-center">
@@ -179,11 +165,6 @@ const Hero = () => {
               delaySpeed={1000}
             /> <br /> Pay With Web3 Wallet
           </strong>
-          {/* <p className="md:text-[32px] hidden md:flex text-[18px] text-center pb-5 mt-6 px-4 font-extralight md:w-9/12 text-[#ECF7FD]  ">
-            Palmverse builds technologies that help people connect IRL{" "}
-            <br className="md:hidden" /> join communities, and bridge the web2
-            travel experience to web3.
-          </p> */}
           <div className=" mt-5 mobile-pc">
             <Image
               src="/images/laptop.png"
