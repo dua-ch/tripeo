@@ -4,21 +4,41 @@ import { HiArrowNarrowRight } from 'react-icons/hi'
 import Link from "next/link";
 
 const Homepage = () => {
-  // const [mobilescreen, setmobilescreen] = useState(null);
+  const [isMobile, setIsMobile] = useState(false);
 
-  // useEffect(() => {
-  //   setmobilescreen(window.screen.width);
-  // }, [mobilescreen]);
-  // return <>
-  //   <div className="relative">
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(max-width: 768px)");
+    setIsMobile(mediaQuery.matches);
+    const listener = () => setIsMobile(mediaQuery.matches);
+    mediaQuery.addListener(listener);
+    return () => mediaQuery.removeListener(listener);
+  }, []);
 
-  //     {
-  //       mobilescreen > 768 ? (
-
-  return(
-          <>
-
-          <div className="hero-video">
+  
+  
+    
+    if (isMobile)  {
+     return(
+      <>
+        <div className="hero-video">
+            <video
+            loop
+            autoPlay
+            src="/videos/V1.mobile.mp4"
+            muted
+            playsInline
+            preload='true'
+            className="md:h-[90vh] object-cover  w-full "
+            onContextMenu={false}
+            />
+        </div>
+        <Hero />
+      </>
+     ) ;
+  } else {
+    return(
+      <>
+      <div className="hero-video">
           <video
           loop
           autoPlay
@@ -28,32 +48,21 @@ const Homepage = () => {
           className="md:h-[90vh] object-cover  w-full "
           />
           <h2 className="big-2 w-900 text-[#fff]">AI Travel Assistant</h2>
-          </div>
-          
-          
-                      
-                      <div className="video-hide">
-                      <video
-                       loop
-                       autoPlay
-                       src="/videos/V1.mobile.mp4"
-                       muted
-                       playsInline
-                       preload='true'
-                       className="md:h-[90vh] object-cover  w-full "
-                       onContextMenu={false}
-                     />
-                     </div>
-                   
-                     <Hero />
-              </>
+      </div>
+      <Hero />
+      </>
+    )
+  }
+}
 
-              
-      );
-       
+ 
+
+    
+    
+    
+
 
   
-}
 
 
 
