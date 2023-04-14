@@ -26,7 +26,6 @@ const Homepage = () => {
             className="md:h-[90vh] object-cover  w-full "
             onContextMenu={false}
           />
-          <h2 className="big-2 w-900 text-[#fff]">AI Travel Assistant!</h2>
           </div>
           </>
          
