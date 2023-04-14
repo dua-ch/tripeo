@@ -4,52 +4,57 @@ import { HiArrowNarrowRight } from 'react-icons/hi'
 import Link from "next/link";
 
 const Homepage = () => {
-  const [mobilescreen, setmobilescreen] = useState(null);
+  // const [mobilescreen, setmobilescreen] = useState(null);
 
-  useEffect(() => {
-    setmobilescreen(window.screen.width);
-  }, [mobilescreen]);
-  return <>
-    <div className="relative">
+  // useEffect(() => {
+  //   setmobilescreen(window.screen.width);
+  // }, [mobilescreen]);
+  // return <>
+  //   <div className="relative">
 
-      {
-        mobilescreen < 768 ? (
+  //     {
+  //       mobilescreen > 768 ? (
+
+  return(
           <>
-           <div className="hero-video">
-           <video
-            loop
-            autoPlay
-            src="/videos/V1.mobile.mp4"
-            muted
-            playsInline
-            preload='true'
-            className="md:h-[90vh] object-cover  w-full "
-            onContextMenu={false}
-          />
-          </div>
-          </>
-         
-          ) : (
-            <>
-            <div className="hero-video">
-                <video
-                loop
-                autoPlay
-                src="/videos/V1.desktop.mp4"
-                muted
-                onContextMenu={false}
-                className="md:h-[90vh] object-cover  w-full "
-              />
-               <h2 className="big-2 w-900 text-[#fff]">AI Travel Assistant!</h2>
-            </div>
-            </>
-         
-        )
-      }
-    </div>
 
-    <Hero />
-  </>
+          <div className="hero-video">
+          <video
+          loop
+          autoPlay
+          src="/videos/V1.desktop.mp4"
+          muted
+          onContextMenu={false}
+          className="md:h-[90vh] object-cover  w-full "
+          />
+          <h2 className="big-2 w-900 text-[#fff]">AI Travel Assistant</h2>
+          </div>
+          
+          
+                      
+                      <div className="video-hide">
+                      <video
+                       loop
+                       autoPlay
+                       src="/videos/V1.mobile.mp4"
+                       muted
+                       playsInline
+                       preload='true'
+                       className="md:h-[90vh] object-cover  w-full "
+                       onContextMenu={false}
+                     />
+                     </div>
+                   
+                     <Hero />
+              </>
+
+              
+      );
+       
+
+  
 }
+
+
 
 export default Homepage;

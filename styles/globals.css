@@ -142,6 +142,10 @@ h4{
   padding: 0 20px;
  }
 
+ .video-hide{
+  display: none;
+ }
+
 @media (max-width:1024px) {
   .big-1 {
     font-size: 56px;
@@ -475,9 +479,13 @@ body .icon-boxes p {
   margin-bottom: -20px;
  }
 
- .hero-video h2 {
-  top: 100px;
-}
+ .hero-video{
+  display: none;
+ }
+
+ .video-hide{
+  display: block;
+ }
 
 }
 
