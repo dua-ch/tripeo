@@ -14,7 +14,9 @@ const Homepage = () => {
 
       {
         mobilescreen < 768 ? (
-          <video
+          <>
+           <div className="hero-video">
+           <video
             loop
             autoPlay
             src="/videos/V1.mobile.mp4"
@@ -23,15 +25,26 @@ const Homepage = () => {
             preload='true'
             className="md:h-[90vh] object-cover  w-full "
             onContextMenu={false}
-          />) : (
-          <video
-            loop
-            autoPlay
-            src="/videos/V1.desktop.mp4"
-            muted
-            onContextMenu={false}
-            className="md:h-[90vh] object-cover  w-full "
           />
+          <h2 className="big-2 w-900 text-[#fff]">AI Travel Assistant!</h2>
+          </div>
+          </>
+         
+          ) : (
+            <>
+            <div className="hero-video">
+                <video
+                loop
+                autoPlay
+                src="/videos/V1.desktop.mp4"
+                muted
+                onContextMenu={false}
+                className="md:h-[90vh] object-cover  w-full "
+              />
+               <h2 className="big-2 w-900 text-[#fff]">AI Travel Assistant!</h2>
+            </div>
+            </>
+         
         )
       }
     </div>

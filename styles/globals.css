@@ -130,6 +130,18 @@ h4{
   margin-top: 10px;
  }
 
+ .hero-video {
+  position: relative;
+ }
+ 
+ .hero-video h2{
+  position: absolute;
+  z-index: 1;
+  top: 220px;
+  left: 7px;
+  padding: 0 20px;
+ }
+
 @media (max-width:1024px) {
   .big-1 {
     font-size: 56px;
@@ -137,6 +149,8 @@ h4{
 }
 
 @media (max-width:767px) {
+
+
 
   .mobile-pc{
     margin-right: -23px;
@@ -457,9 +471,13 @@ body .icon-boxes p {
 }
 
 .cta-section.banner{
-  padding: 50px 20px 0;
+  padding: 40px 20px 0;
   margin-bottom: -20px;
  }
+
+ .hero-video h2 {
+  top: 100px;
+}
 
 }
 
@@ -690,5 +708,12 @@ body .icon-boxes p {
 
   .team-box .team-text {
     padding: 28px 20px;
+  }
+}
+
+@media (max-width:479px){
+  .hero-video h2 {
+   font-size: 30px;
+   top: 60px;
   }
 }

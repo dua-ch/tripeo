@@ -42,7 +42,7 @@ const Hero = () => {
           </div>
           <div className="col-content">
                 <h2 className="big-3"><span className="text-[#000]">Plan, book, and travel with ease for a smooth journey.</span></h2>
-                <p className="lead-1">Join Gen Y/Z travelers for personalized destination recommendations based on your search preferences.</p> 
+                <p className="lead-1">Join Gen Y/Z travelers for personalized destination ideas based on your search preferences.</p> 
           </div>
       </div>
     </div>
